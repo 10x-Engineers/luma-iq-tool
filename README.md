@@ -1,5 +1,8 @@
 # luma-iq-tool
 Premium integrated IQ analysis workbench for ISP tuning, YAML-native pipeline editing, and automated image quality evaluation
+<div align="center">
+
+<img src="https://10xengineers.ai/wp-content/uploads/cropped-square-logo-270x270.png" width="80" alt="10xEngineers Logo"/>
 
 # LumaIQ
 
@@ -7,17 +10,33 @@ Premium integrated IQ analysis workbench for ISP tuning, YAML-native pipeline ed
 
 **ISP-Native · HDR-Aware · Pipeline-Integrated**
 
-Overview
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)](#)
+[![Built With](https://img.shields.io/badge/Built%20With-PyQt6%20%7C%20NumPy%20%7C%20OpenCV-informational.svg)](#)
+[![RAW Formats](https://img.shields.io/badge/RAW%20Formats-13%2B-green.svg)](#format-support)
+[![HDR](https://img.shields.io/badge/HDR-Native%20Support-orange.svg)](#hdr-integration)
+[![No Cloud](https://img.shields.io/badge/Deployment-Offline%20%7C%20No%20Subscription-lightgrey.svg)](#)
+[![Price](https://img.shields.io/badge/Starting%20From-USD%204%2C000-purple.svg)](https://10xengineers.ai/contact-us/)
 
-LumaIQ is an integrated Image Quality (IQ) analysis workbench built specifically for ISP algorithm engineers. It replaces fragmented scripts, disconnected tools, and manual YAML edits with a single, cohesive environment — cutting tuning loops from hours to minutes.
+[🧪 Try with Your RAW Data](https://10xengineers.ai/contact-us/) · [🌐 Website](https://10xengineers.ai/lumaiq/) · [📬 Contact](https://10xengineers.ai/contact-us/)
+
+</div>
+
+---
+
+## Overview
+
+**LumaIQ** is an integrated Image Quality (IQ) analysis workbench built specifically for ISP algorithm engineers. It replaces fragmented scripts, disconnected tools, and manual YAML edits with a single, cohesive environment — cutting tuning loops from hours to minutes.
 
 > _"Every feature exists because an ISP engineer needed it during tuning — not because a product manager needed a checkbox."_
 
 Built on **PyQt6, NumPy, SciPy, and OpenCV**. Runs natively on **Windows and Linux**. No cloud dependency, no subscription lock-in.
 
- ⚡ At a Glance
+---
 
+## ⚡ At a Glance
 
+| | |
+|---|---|
 | **Platform** | Windows · Linux (native desktop) |
 | **Pipeline** | YAML-native · full collapsible per-stage editor |
 | **HDR Support** | Native — dual-exposure · LTM · tone mapping |
@@ -29,9 +48,11 @@ Built on **PyQt6, NumPy, SciPy, and OpenCV**. Runs natively on **Windows and Lin
 | **RAW Formats** | 13+ formats including headerless sensor dumps |
 | **Starting Price** | USD 4,000 |
 
-� Workflow Diagram
+---
 
-The Problem: Fragmented Tuning Loop
+## �� Workflow Diagram
+
+### The Problem: Fragmented Tuning Loop
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -220,5 +241,3 @@ Automatic ColorChecker prompt on image load. Quad-corner boundary selector extra
 - CIEDE2000 ΔE per patch
 - All 24 ColorChecker patches
 - Severity grad...
-
-[🧪 Try with Your RAW Data](https://10xengineers.ai/contact-us/) · [🌐 Website](https://10xengineers.ai/lumaiq/) · [📬 Contact](https://10xengineers.ai/contact-us/)
